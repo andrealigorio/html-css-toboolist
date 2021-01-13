@@ -16,7 +16,7 @@
         </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container cont-main">
         <!-- parte superiore del contenitore -->
         <div class="upper-task">
           <button class="add-task" type="button" name="addtask"><a href="#">Add Task</a></button>
@@ -88,9 +88,15 @@
         </div>
       </div>
     </main>
-    <!-- copiright -->
+    <!-- inserimento email e copiright -->
     <footer>
-      <div class="foot">Created with &hearts; by Ligorio Andrea</div>
+      <div class="container">
+        <form action="index.html" method="post">
+          <input type="email" class="email" name="email" value="" placeholder="Inserisci la tua email">
+          <input type="submit" class="submit" name="submit" value="INVIA">
+        </form>
+        <span class="foot">Created with &hearts; by Ligorio Andrea</span>
+      </div>
     </footer>
   </body>
 </html>

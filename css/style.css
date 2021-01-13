@@ -32,6 +32,9 @@ header {
 .container {
   width: 70%;
   margin: 0 auto;
+}
+
+.cont-main {
   background-color: white;
   border-radius: 5px;
 }
@@ -85,10 +88,15 @@ header {
 }
 
 .check {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
   font-weight: bold;
   border-radius: 50%;
-  padding: 2px 5px;
-
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
 }
 
 .check.check-v {
@@ -138,12 +146,44 @@ li .tag {
 }
 
 .task .row li {
-  padding: 10px;
+  padding: 10px 0;
 }
 
-footer > .foot {
-  margin: 10px;
+footer form {
+  padding-top: 20px;
+}
+
+.email {
+  height: 25px;
+  width: 200px;
+  border: 1px solid #73bcfc;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.submit {
+  background-color: #73bcfc;
+  color: white;
+  height: 25px;
+  width: 50px;
+  vertical-align: center;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+footer > .container {
+  height: 50px;
+  position: relative;
+}
+
+footer .foot {
+  padding: 10px;
   font-size: 12px;
   color: white;
   text-shadow: 5px 5px 15px black;
+  position: absolute;
+  right: 0;
 }
