@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddddd;
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.logo {
+  padding: 10px 20px;
+}
+
+.logo > img {
+    vertical-align: middle;
+}
+
+.logo-text {
+  font-size: 35px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.upper-task {
+  padding: 15px 60px;
+  border-bottom: 2px solid #dddddd;
+}
+
+.upper-task button {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.upper-task button a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.upper-task > .add-task {
+  background-color: #73bcfc;
+  border: 1px solid #73bcfc;
+  margin-right: 5px;
+}
+
+.upper-task .add-task a {
+  color: white;
+}
+
+.upper-task > .add-section {
+  background-color: white;
+  border: 1px solid #c3c3c3;
+}
+
+.upper-task .add-section a {
+  color: #c3c3c3;
+}
+
+.container .task {
+  background-color: white;
+  padding: 40px 60px;
+}
+
+.task ul {
+  list-style: none;
+}
+
+.task h3::before {
+  content: '\25BE';
+}
+
+.check {
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 5px;
+
+}
+
+.check.check-v {
+  color: #02c40f;
+  border: 2px solid #02c40f;
+}
+
+.check.check-x {
+  color: #ed3131;
+  border: 2px solid #ed3131;
+}
+
+li .tag {
+  font-size: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.tag-color-blue {
+  background-color: #73bcfc;
+}
+
+.tag-color-purple {
+  background-color: #9a66bf;
+}
+
+.tag-color-green {
+  background-color: #70e0a5;
+}
+
+.tag-color-orange {
+  background-color: #f39a59;
+}
+
+.tag-color-rose {
+  background-color: #f486f0;
+}
+
+.tag-color-yellow {
+  background-color: #9ea068;
+}
+
+.task > ul > li {
+  padding-bottom: 30px;
+}
+
+.task .row li {
+  padding: 10px;
+}
+
+footer > .foot {
+  margin: 10px;
+  font-size: 12px;
+  color: white;
+  text-shadow: 5px 5px 15px black;
+}
